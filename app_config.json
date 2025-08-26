@@ -116,8 +116,8 @@
     "youtube": {
       "base_url": "https://www.youtube.com",
       "embed_url": "https://www.youtube.com/embed/{video_id}?autoplay=1&playsinline=1&rel=0&modestbranding=1",
-      "default_video": "ueIOUTyRS84",
-      "kaaba_live_stream": "https://www.youtube.com/watch?v=ueIOUTyRS84"
+      "default_video": "gwc8yeqGVPo",
+      "kaaba_live_stream": "https://www.youtube.com/watch?v=gwc8yeqGVPo"
     },
     "qibla_map": {
       "local_path": "file:///android_asset/qibla_map.html",
