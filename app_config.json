@@ -1,0 +1,164 @@
+{
+  "app_config": {
+    "version": "1.0.0",
+    "last_updated": "2024-12-19",
+    "description": "Native Prayer App Configuration - External configuration file for URLs and endpoints"
+  },
+  "apis": {
+    "prayer_times": {
+      "base_url": "https://api.aladhan.com/v1",
+      "endpoints": {
+        "timings_by_address": "/timingsByAddress",
+        "methods": "/methods",
+        "hijri_calendar": "/hijriCalendarByCity"
+      },
+      "calculation_methods": {
+        "default": "2",
+        "available": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+      }
+    },
+    "london_prayer_times": {
+      "base_url": "https://www.londonprayertimes.com/api/times",
+      "format": "json",
+      "parameters": {
+        "24hours": "true"
+      }
+    }
+  },
+  "quran": {
+    "audio": {
+      "reciters": {
+        "mishary_al_afasy": {
+          "names": ["Mishary Al-Afasy", "Al Afasy", "مشاري العفاسي", "العفاسي"],
+          "urls": ["https://server8.mp3quran.net/afs/{surah:03d}.mp3"]
+        },
+        "abdul_rahman_al_sudais": {
+          "names": ["Abdul Rahman Al-Sudais", "Al Sudais", "عبد الرحمن السديس", "السديس"],
+          "urls": [
+            "https://server11.mp3quran.net/sds/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "maher_al_muaiqly": {
+          "names": ["Maher Al-Muaiqly", "ماهر المعيقلي", "المعيقلي"],
+          "urls": [
+            "https://www.nooresunnat.com/Audio/Complete%20Quran/Shaykh%20Maher%20Al%20Muaiqly/{surah}.mp3",
+            "https://server6.mp3quran.net/maher/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "abdul_basit_abdul_samad": {
+          "names": ["Abdul Basit Abdul Samad", "عبد الباسط عبد الصمد", "عبد الباسط"],
+          "urls": [
+            "https://server7.mp3quran.net/basit/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "islam_sobhi": {
+          "names": ["Islam Sobhi", "إسلام صبحي", "صبحي"],
+          "urls": [
+            "https://server11.mp3quran.net/yasser/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "saad_al_ghamdi": {
+          "names": ["Saad Al-Ghamdi", "سعد الغامدي", "الغامدي"],
+          "urls": [
+            "https://server7.mp3quran.net/s_gmd/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "abdullah_basfar": {
+          "names": ["Abdullah Basfar", "عبد الله بصفر", "بصفر"],
+          "urls": [
+            "https://server6.mp3quran.net/bsfr/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "ahmed_al_ajmi": {
+          "names": ["Ahmed Al-Ajmi", "أحمد العجمي", "العجمي"],
+          "urls": [
+            "https://server10.mp3quran.net/ajm/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "saud_al_shuraim": {
+          "names": ["Saud Al-Shuraim", "سعود الشريم", "الشريم"],
+          "urls": [
+            "https://server7.mp3quran.net/shur/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        },
+        "nasser_al_qatami": {
+          "names": ["Nasser Al-Qatami", "ناصر القطامي", "القطامي"],
+          "urls": [
+            "https://server6.mp3quran.net/qtm/{surah:03d}.mp3",
+            "https://server8.mp3quran.net/afs/{surah:03d}.mp3"
+          ]
+        }
+      },
+      "fallback_url": "https://server8.mp3quran.net/afs/{surah:03d}.mp3",
+      "legacy_urls": {
+        "everyayah": "http://www.everyayah.com/data/Alafasy_64kbps/{surah:03d}.mp3"
+      }
+    },
+    "assets": {
+      "local_files": {
+        "quran_meta": "quran_meta.json",
+        "quran_suras": "quran_suras/{surah:03d}.json",
+        "quran_timings": "quran_timings/{surah:03d}.json",
+        "surah_pages_ar": "downloads/arabic/surah_pages.json",
+        "surah_pages_en": "downloads/english/surah_pages.json"
+      }
+    }
+  },
+  "media": {
+    "youtube": {
+      "base_url": "https://www.youtube.com",
+      "embed_url": "https://www.youtube.com/embed/{video_id}?autoplay=1&playsinline=1&rel=0&modestbranding=1",
+      "default_video": "ueIOUTyRS84",
+      "kaaba_live_stream": "https://www.youtube.com/watch?v=ueIOUTyRS84"
+    },
+    "qibla_map": {
+      "local_path": "file:///android_asset/qibla_map.html",
+      "parameters": {
+        "lat": "{latitude}",
+        "lng": "{longitude}"
+      }
+    }
+  },
+  "azkar": {
+    "remote_urls": {
+      "hisn_en": "",
+      "hisn_ar": ""
+    },
+    "local_files": {
+      "primary_hisn_en": "hisn_en.json",
+      "primary_hisn_ar": "hisn_ar.json",
+      "fallback_azkar_en": "azkar_data_en.json",
+      "fallback_azkar_ar": "azkar_data_ar.json"
+    }
+  },
+  "notifications": {
+    "channel": {
+      "id": "prayer_times_channel_v3",
+      "name": "Prayer Times",
+      "description": "Notifications for prayer times"
+    }
+  },
+  "permissions": {
+    "location_request_codes": {
+      "settings": 1002,
+      "qibla": 1001
+    }
+  },
+  "preferences": {
+    "shared_prefs_name": "prayer_app_prefs"
+  },
+  "file_storage": {
+    "quran_pages": {
+      "external_dir": "quran_pages",
+      "languages": ["ar", "en"]
+    }
+  }
+}
