@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-27",
+  "reciters": {
+    "al_afasy": {
+      "name_en": "Mishary Al-Afasy",
+      "name_ar": "مشاري العفاسي",
+      "aliases": ["Al Afasy", "العفاسي"],
+      "url_template": "https://server8.mp3quran.net/afs/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "al_sudais": {
+      "name_en": "Abdul Rahman Al-Sudais",
+      "name_ar": "عبد الرحمن السديس",
+      "aliases": ["Al Sudais", "السديس"],
+      "url_template": "https://server11.mp3quran.net/sds/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server11.mp3quran.net/sds/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "maher_almuaiqly": {
+      "name_en": "Maher Al-Muaiqly",
+      "name_ar": "ماهر المعيقلي",
+      "aliases": ["المعيقلي"],
+      "url_template": "https://www.nooresunnat.com/Audio/Complete%20Quran/Shaykh%20Maher%20Al%20Muaiqly/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://www.nooresunnat.com/Audio/Complete%20Quran/Shaykh%20Maher%20Al%20Muaiqly/{sura_id}.mp3",
+        "https://server6.mp3quran.net/maher/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "saad_alghamdi": {
+      "name_en": "Saad Al-Ghamdi",
+      "name_ar": "سعد الغامدي",
+      "aliases": ["الغامدي"],
+      "url_template": "https://server7.mp3quran.net/s_gmd/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server7.mp3quran.net/s_gmd/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "abdullah_basfar": {
+      "name_en": "Abdullah Basfar",
+      "name_ar": "عبد الله بصفر",
+      "aliases": ["بصفر"],
+      "url_template": "https://server6.mp3quran.net/bsfr/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server6.mp3quran.net/bsfr/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "ahmed_ajmi": {
+      "name_en": "Ahmed Al-Ajmi",
+      "name_ar": "أحمد العجمي",
+      "aliases": ["Ahmed Ali Al-Ajmi", "العجمي"],
+      "url_template": "https://server10.mp3quran.net/ajm/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server10.mp3quran.net/ajm/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "saud_shuraim": {
+      "name_en": "Saud Al-Shuraim",
+      "name_ar": "سعود الشريم",
+      "aliases": ["الشريم"],
+      "url_template": "https://server7.mp3quran.net/shur/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server7.mp3quran.net/shur/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "nasser_alqatami": {
+      "name_en": "Nasser Al-Qatami",
+      "name_ar": "ناصر القطامي",
+      "aliases": ["القطامي"],
+      "url_template": "https://server6.mp3quran.net/qtm/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server6.mp3quran.net/qtm/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "abdul_basit": {
+      "name_en": "Abdul Basit Abdul Samad",
+      "name_ar": "عبد الباسط عبد الصمد",
+      "aliases": ["عبد الباسط"],
+      "url_template": "https://server7.mp3quran.net/basit/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server7.mp3quran.net/basit/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    },
+    "islam_sobhi": {
+      "name_en": "Islam Sobhi",
+      "name_ar": "إسلام صبحي",
+      "aliases": ["صبحي"],
+      "url_template": "https://server11.mp3quran.net/yasser/{sura_id}.mp3",
+      "fallback_urls": [
+        "https://server11.mp3quran.net/yasser/{sura_id}.mp3",
+        "https://server8.mp3quran.net/afs/{sura_id}.mp3"
+      ]
+    }
+  }
+}
+
