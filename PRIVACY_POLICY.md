@@ -95,5 +95,5 @@ We may update this policy from time to time. The updated version will be posted 
 
 ## Contact
 
-**Email:** Alkawareeta@gmail.com  
+**Email:** app.muslimcompanion@gmail.com
 **Developer / Owner:** Amer Alkawareet
